@@ -18,3 +18,32 @@ body {
 	color: red;
 	text-decoration: underline;
 }
+
+#hlavicka {
+}
+
+.hlavicka img {
+	margin: 1ex;
+}
+
+#paticka {
+	text-align: center;
+	font-size: 80%;
+}
+
+h1, h2 {
+	font-family: "georgia";
+	color: blue;
+}
+
+#left {
+	float: left;
+	width: 30%;
+	padding: 10px;
+}
+
+#right {
+	float: right;
+	width: 60%;
+	padding: 10px;
+}

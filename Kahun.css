@@ -1,0 +1,20 @@
+body {
+	background: lightblue;
+	color: black;
+	padding: 0ex;
+	margin: 0ex;
+	font-family: "Tahoma";
+}
+	
+#obsah {
+	margin: 20px 50px 20px 50px;
+	text-align: center;
+	min-width: 22em;
+	max-width: 42em;
+}
+
+.prikaz {
+	font-family: "Georgia";
+	color: red;
+	text-decoration: underline;
+}

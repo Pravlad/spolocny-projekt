@@ -7,5 +7,6 @@
       dat.getFullYear();
       return vrat;
   } 	   
-	   document.write(datum());	   
+
+	   
 	   

@@ -1,3 +1,12 @@
+   function datum() { 
+      var dat = new Date();
+      dat.setTime(Date.parse(document.lastModified));
+      var mesiac=1;
+      mesiac=mesiac+dat.getMonth();
+      var vrat = dat.getDate() + "." + mesiac + "." +
+      dat.getFullYear();
+      return vrat;
+  } 	   
 function tiktak(){
 var cas=new Date()
 var hodina=cas.getHours()
@@ -13,16 +22,5 @@ sekunda="0"+sekunda
 document.zobraz.hodiny.value=hodina+":"+minuta+":"+sekunda
 setTimeout("tiktak()",1000)
 }
-tiktak()
-	   
-  function datum() { 
-      var dat = new Date();
-      dat.setTime(Date.parse(document.lastModified));
-      var mesiac=1;
-      mesiac=mesiac+dat.getMonth();
-      var vrat = dat.getDate() + "." + mesiac + "." +
-      dat.getFullYear();
-      return vrat;
-  } 	   
 	   
 	   

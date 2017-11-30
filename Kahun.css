@@ -1,5 +1,6 @@
 body {
-	background: lightblue;
+	/*background: lightblue;*/
+	background-image: url("background2.jpg");
 	color: black;
 	padding: 0ex;
 	margin: 0ex;
@@ -38,12 +39,12 @@ h1, h2 {
 
 #left {
 	float: left;
-	width: 30%;
+	width: 10%;
 	padding: 10px;
 }
 
 #right {
 	float: right;
-	width: 60%;
+	width: 85%;
 	padding: 10px;
 }

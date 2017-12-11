@@ -1,6 +1,6 @@
 body {
 	/*background: lightblue;*/
-	background-image: url("background2.jpg");
+	background-image: url("background4.jpg");
 	color: black;
 	padding: 0ex;
 	margin: 0ex;
@@ -16,16 +16,10 @@ body {
 
 .prikaz {
 	font-family: "Georgia";
-	color: red;
+	color: mediumpurple;
 	text-decoration: underline;
 }
 
-#hlavicka {
-}
-
-.hlavicka img {
-	margin: 1ex;
-}
 
 #paticka {
 	text-align: center;
@@ -34,12 +28,12 @@ body {
 
 h1, h2 {
 	font-family: "georgia";
-	color: blue;
+	color: midnightblue;
 }
 
 #left {
 	float: left;
-	width: 10%;
+	width: 12%;
 	padding: 10px;
 }
 
@@ -47,4 +41,26 @@ h1, h2 {
 	float: right;
 	width: 85%;
 	padding: 10px;
+}
+
+.menu {
+	line-height: 200%;
+	margin: 1em 0;
+	padding: 1px;
+	font-size: 110%;
+}
+
+.menu li {
+	display: outline;
+	margin: 0;
+	padding: 0.25ex 1ex;
+	border: solid transparent 1px;
+}
+
+.menu li:hover {
+	border: solid black 1px;  /*ramik ked nabehnem kurzorom*/
+}
+
+.menu a {
+	text-decoration: none;  /*odkazy v menu sa nebudu podciarkovat*/
 }

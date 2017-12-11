@@ -10,7 +10,10 @@
   </head>
   <body>
  
-   <h1>Základné technológie na tvorbu www stránok</h1>
+   <h1 onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" >Základné technológie na tvorbu www stránok</h1> 
+<FORM>
+<INPUT TYPE="Button" VALUE="Previous Page" onClick="history.go(-1)">
+</FORM>   
    
    <ul>                 
 			<li><td class="selected"><a href="index.html">-Domov-</a></li>
@@ -43,5 +46,10 @@
 <script>
 document.write(datum());
 </script>
+
+<script>
+writeRandomQuote();
+</script>
+<script type="text/javascript">showDate();</script>
   </body>
 </html>

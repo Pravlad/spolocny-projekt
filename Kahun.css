@@ -16,7 +16,7 @@ body {
 
 .prikaz {
 	font-family: "Georgia";
-	color: mediumpurple;
+	color: purple;
 	text-decoration: underline;
 }
 
@@ -24,6 +24,8 @@ body {
 #paticka {
 	text-align: center;
 	font-size: 80%;
+	clear: left;
+	clear: right;
 }
 
 h1, h2 {

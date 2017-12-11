@@ -4,19 +4,33 @@
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
   <meta name="generator" content="PSPad editor, www.pspad.com">
   <title></title>
+  <link rel="stylesheet" href="kahun.css?v=1.0">
   </head>
   <body>
-     <h1 onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'">Základné technológie na tvorbu www stránok</h1>
-	 <FORM>
-<INPUT TYPE="Button" VALUE="Previous Page" onClick="history.go(-1)">
-</FORM>
-      <ul>
+   <h1 onmouseover="this.style.color='red'" onmouseout="this.style.color='midnightblue'" >
+   <img src="sps.jpg">
+   <div id="right">
+   <br>
+   Základné technológie na tvorbu www stránok
+   </div>
+   </h1> 
+   
+   <div id="left">
+   <div class="menu">
+   <ul>       
         <li><a href="index.html">Domov</a></li>
         <li><a href="html.html">HTML</a></li>
 				<li><a href="css.html">CSS</a></li>
 				<li><td class="selected"><a href="php.html">PHP</a></li>
         <li><a href="javascript.html">JavaScript</a></li>
-      </ul>
+        </ul>
+	   </div>
+<FORM>
+<INPUT TYPE="Button" VALUE="Previous Page" onClick="history.go(-1)">
+</FORM> 
+	</div>
+	
+	<div id="right">
 <h2>PHP</h2>
 <h3>Čo je a ako vzniklo PHP</h3>
 <p>PHP je skriptovací jazyk pre tvorbu dynamických webových stránok. V oblasti webových technológií na strane servera patrí medzi najpoužívanejšie nástroje. Je freeware, nezávislý na platforme (existujú verzie pre Windows, UNIX, LINUX). Táto technológia nie je viazaná na žiadny server, najlepšie je však implementovaná na serveri APACHE. Skripty PHP sa vkladajú do (X)HTML kódu.</p>
@@ -28,5 +42,6 @@
 <p>Ideálna kombinácia je, ak máme rozbehnutý HTTP server s podporou PHP. Vtedy to vyzerá nasledovne:</p>
 (OBRAZOK)
 <p>Internetový prehľadávač (napr. Internet Explorer, Firefox a pod.) vyšle požiadavku na zobrazenie dokumentu - skriptu PHP. Požiadavka dorazí k HTTP serveru, ten zistí (podľa toho, ako je konfigurovaný) že dokument je skript a preto ho pošle PHP interpretovi. PHP interpret skript vykoná a výsledok behu skriptu (väčšinou to bude HTML formát) vráti späť HTTP serveru. Ten výsledok odošle internetovému prehliadaču, ktorý ho zobrazí používateľovi za počítačom. Používateľ si ani nemusí všimnúť, že do hry vstupuje nejaký PHP interpret, a pokiaľ si nevšimne inú príponu zobrazeného dokumentu (zvyčajne php3, php4, php, phtml), javí sa mu to ako úplne bežná stránka na internete. V tejto konfigurácii (uvedomme si, že na fyzicky jednom a tom istom počítači môže byť spustený internetový prehliadač aj HTTP server) môžeme plne využiť to, čo nám HTTP sever s podporou PHP ponúka. Je však potrebné konfigurovať HTTP server tak, aby správne fungoval a podporoval PHP skripty.</p>
+  </div>
   </body>
 </html>

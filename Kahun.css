@@ -50,30 +50,45 @@ h1, h2 {
 	margin: 1em 0;
 	padding: 1px;
 	font-size: 110%;
+	text-align: center;
+	cursor: pointer;
 }
 
-.menu li {
+.menu a {
 	display: outline;
 	margin: 0;
 	padding: 0.25ex 1ex;
 	border: solid transparent 1px;
-}
-
-.menu li:hover {
-	border: solid black 1px;  /*ramik ked nabehnem kurzorom*/
-}
-
-.menu a {
 	text-decoration: none;  /*odkazy v menu sa nebudu podciarkovat*/
 }
 
-.button {
-    background-color: transparent;
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
+.menu a:hover {
+	border: solid black 1px;  /*ramik ked nabehnem kurzorom*/
 }
+
+.button {
+	line-height: 200%;
+	margin: 1em 0;
+	padding: 1px;
+	font-size: 110%;
+	text-align: center;
+	cursor: pointer;
+	font-weight: bold;
+	color: midnightblue;
+}
+
+.button a {
+	display: outline;
+	margin: 0;
+	padding: 0.25ex 1ex;
+	border: solid transparent 1px;
+	text-decoration: none;
+	position: fixed;
+	bottom: 10;
+    left: 20;
+}
+
+.button a:hover {
+	border: solid black 1px;  /*ramik ked nabehnem kurzorom*/
+}
+

@@ -7,19 +7,36 @@
   <link rel="stylesheet" href="kahun.css?v=1.0">
   </head>
   <body>
-   <h1>Základné technológie na tvorbu www stránok</h1>
-      <ul>
+   <h1 onmouseover="this.style.color='red'" onmouseout="this.style.color='midnightblue'" >
+   <img src="sps.jpg">
+   <div id="right">
+   <br>
+   Základné technológie na tvorbu www stránok
+   </div>
+   </h1> 
+   
+   <div id="left">
+   <div class="menu">
+   <ul>       
         <li><a href="index.html">Domov</a></li>
         <li><td class="selected"><a href="html.html">HTML</a></li>
 				<li><a href="css.html">CSS</a></li>
 				<li><a href="php.html">PHP</a></li>
         <li><a href="javascript.html">JavaScript</a></li>
        </ul>
+	   </div>
+<FORM>
+<INPUT TYPE="Button" VALUE="Previous Page" onClick="history.go(-1)">
+</FORM> 
+	</div>
+	
+	<div id="right">
   <h2>HTML jazyk</h2>
   <h3>Charakteristika jazyka</h3>
   <p>HTML (HyperTextMarkupLanguage)– základný nástroj na tvorbu stránok je značkovací (nie programovací) jazyk pre tvorbu hypertextových dokumentov. V ňom autor popisuje logickú štruktúru dokumentu. Výsledok – obyčajný textový súbor. Na popis sa používajú značky/tagy. (párové, nepárové). Súbor s popisom dokumentu dorazí do prehliadača. Ten postupne prechádza dokumentom a rozoznáva HTML značky. Potom, na základe možností, ktoré mu OS ponúka a podľa svojich nastavení rozhodne ako zobrazí nadpis, odsek, ako a či vôbec bude v texte umiestnený obrázok. Teda až prehliadač rozhoduje o tom, ako sa stránka na obrazovke zobrazí. Ak je v texte značka, ktorú nepozná, jednoducho ju ignoruje.</p>
   <h3>Štruktúra HTML dokumentu</h3>
 
+  <div class="prikaz">
   <p>&lt!DOCTYPE html&gt
   <br>&lthtml&gt
   <br>&lthead&gt
@@ -27,9 +44,11 @@
   <br>&lt/head&gt
   <br>&ltbody&gt
   <br>&lth1> Vitajte na stránke IV. A triedy!&lt/h1&gt
-  <br>&ltp>Toto je prvý odstavec nášho dokumentu&lt/p&gt
+  <br>&ltp></span>Toto je prvý odstavec nášho dokumentu&lt/p&gt
   <br>...a tu bude obsah celej našej stránky...
   <br>&lt!body&gt
   <br>&lt!html&gt</p>
+  </div>
+  </div>
   </body>
 </html>

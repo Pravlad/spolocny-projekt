@@ -7,21 +7,36 @@
   		<link rel="stylesheet" href="kahun.css?v=1.0">
   </head>
   <body>
-    <h1>Základné technológie na tvorbu www stránok</h1>
-      <ul>
+   <h1 onmouseover="this.style.color='red'" onmouseout="this.style.color='midnightblue'" >
+   <img src="sps.jpg">
+   <div id="right">
+   <br>
+   Základné technológie na tvorbu www stránok
+   </div>
+   </h1> 
+   
+   <div id="left">
+   <div class="menu">
+   <ul>         
         <li><a href="index.html">Domov</a></li>
         <li><a href="html.html">HTML</a></li>
-				<li><td class="selected"><a href="css.html">CSS</a></li>
-				<li><a href="php.html">PHP</a></li>
+		<li><td class="selected"><a href="css.html">CSS</a></li>
+		<li><a href="php.html">PHP</a></li>
         <li><a href="javascript.html">JavaScript</a></li>
       </ul>
+	  	</div>
+<FORM>
+<INPUT TYPE="Button" VALUE="Previous Page" onClick="history.go(-1)">
+</FORM> 
+	</div>
 
+	<div id="right">
     <h2>Úvod do CSS</h2> 
   
   <p align='justify'>Štandard CSS (Cascading Style Sheets, tiež kaskádové štýly), priniesol do webdizajnu možnosť oddeliť <b>obsah</b> webových dokumentov od <b>prezentácie</b>. Pod prezentáciou tu rozumieme predovšetkým vizuálne grafické spracovanie dokumentu a jeho typografiu. Oddelením obsahu od prezentácie sa stala tvorba (X)HTML dokumentov jednoduchšou a prehľadnejšou. CSS zároveň umožňuje ďaleko väčšiu kontrolu nad prezentáciou dokumentu, a tým aj ďaleko väčšiu slobodu pri návrhu prezentácie, než bolo kedy možné prostredníctvom HTML. (Po zavedení CSS bola časť funkcionality súvisiaca výhradne s prezentáciou z HTML postupne odobraná.) Vďaka týmto skutočnostiam spôsobilo CSS doslova revolúciu vo webdizajne a je dnes základným nástrojom webdizajnu.</p>
   
   <ul>
-        <li>	CSS vznikli okolo roku 1997, autorom CSS je <b><a href= https://en.wikipedia.org/wiki/H%C3%A5kon_Wium_Lie> Håkon Wium Lie </a></b></li>
+        <li>	CSS vznikli okolo roku 1997, autorom CSS je <b><a href= https://en.wikipedia.org/wiki/H%C3%A5kon_Wium_Lie onclick="return confirm('Budeš presmerovaný na inú stránku')" onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'"> Håkon Wium Lie </a></b></li>
         <li>	Previazanie HTML s CSS je jednoduché a prehľadné</li>
         <li>Je to kolekcia metód pre grafickú úpravu webových stránok. (Kaskádové, pretože sa na seba môžu vrstviť definície štýlu, ale platí len tá posledná.)</li> 
         <li>Pomocou CSS môžeme definovať vzhľad a vlastnosti všetkých HTML elementov </li>
@@ -33,5 +48,6 @@
         <li>	Má ich pod patronátom W3C</li>
         <li>	CSS štýlov je strašne veľa a sú tak rozsiahle, že  vlastne prevyšujú problematiku klasického HTML, hoci vlastne tvoria jeho doplnok</li> 
       </ul>
+	</div>
   </body>
 </html>

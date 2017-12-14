@@ -66,3 +66,14 @@ h1, h2 {
 .menu a {
 	text-decoration: none;  /*odkazy v menu sa nebudu podciarkovat*/
 }
+
+.button {
+    background-color: transparent;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}

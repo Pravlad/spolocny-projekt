@@ -37,5 +37,16 @@ setTimeout("tiktak()",1000)
     var curr_date = d.getDate();
     var curr_month = d.getMonth() + 1; //months are zero based
     var curr_year = d.getFullYear();
-    document.write("Dnešný Dátum: " + curr_date + "." + curr_month + "." + curr_year);
+	var kek = new Date();
+    var weekday = new Array(7);
+    weekday[0] = "Nedela";
+    weekday[1] = "Pondelok";
+    weekday[2] = "Utorok";
+    weekday[3] = "Streda";
+    weekday[4] = "Štvrtok";
+    weekday[5] = "Piatok";
+    weekday[6] = "Sobota";
+
+    var n = weekday[kek.getDay()];
+    document.write(n+" " + curr_date + "." + curr_month + "." + curr_year);
   }

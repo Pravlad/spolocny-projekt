@@ -41,8 +41,9 @@ h1, h2 {
 
 #right {
 	float: right;
-	width: 85%;
+	width: 80%;
 	padding: 10px;
+	padding-right: 70px;
 }
 
 .menu {
@@ -90,5 +91,13 @@ h1, h2 {
 
 .button a:hover {
 	border: solid black 1px;  /*ramik ked nabehnem kurzorom*/
+}
+
+.datum {
+	color: midnightblue;
+	font-size: 110%;
+	position: absolute;
+	top: 5;
+    right: 10;
 }
 

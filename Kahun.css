@@ -101,7 +101,13 @@ h1, h2 {
     right: 10;
 }
 
-#autor {
-  align-items: center;
+#autor { 
   border: 10px double midnightblue;
+}
+
+#phpimg {
+  border: 10px double midnightblue;
+  
+    margin-left: 0;
+    margin-right: 61%;
 }

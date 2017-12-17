@@ -101,3 +101,6 @@ h1, h2 {
     right: 10;
 }
 
+#autor {
+  border: 10px double midnightblue;
+}
